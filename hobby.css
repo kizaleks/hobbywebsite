@@ -1,0 +1,64 @@
+.body {
+    margin: 0;
+}
+.navigation{
+    float: right;
+    height: 100%;
+    padding: 0px 100px;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+   
+}
+ 
+.navigation a li{    
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    height: 100%;
+    width:max-content;      
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+   
+}
+.logo-container{
+    height: 100%;
+    width:auto;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+.logo-container h1{
+
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 40px;
+    color: white;
+}
+
+.content{
+    float:left;
+    height: 100%;
+    padding: 1rem; 
+    position:static;       
+}
+.content p{
+    height: 100%;
+    display: table;
+    float: left;
+}
