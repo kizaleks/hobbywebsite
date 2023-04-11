@@ -30,7 +30,7 @@
 .header{
     height: 100%;
     width:max-content;      
-    float: left;
+    
     padding: 0px 20px;
     background-color: #101010;
    
@@ -39,7 +39,7 @@
     height: 100%;
     width:auto;
     display: table;
-    float: left;
+   
     padding: 0px 20px;
     background-color: #101010;
 }
@@ -56,6 +56,12 @@
     height: 100%;
     padding: 1rem; 
     position:static;       
+}
+.content a li{
+    width:400px;
+    height: 100%;
+    float: left;
+    color: black;
 }
 .content p{
     height: 100%;
